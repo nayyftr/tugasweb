@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Registrasi</title>
+    <framset cols="50%,50%" border="0"/>
+        <frame name="" src="regis1.html"/>
+        <frame name="" src="regisbootstrap.html"/>
+    </framset>  
+</head>
+</head>
+<body>
+    <h2>Formulir Registrasi</h2>
+    <form>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td><label for="firstName">Nama Depan</label></td>
+                <td><input type="text" id="firstName" name="firstName" placeholder="Masukkan nama depan" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Nama Belakang</label></td>
+                <td><input type="text" id="lastName" name="lastName" placeholder="Masukkan nama belakang" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Masukkan email" required></td>
+            </tr>
+            <tr></tr>
+                <td><label for="birthdate">Tanggal Lahir</label></td>
+                <td><input type="date" id="birthdate" name="birthdate" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Kata Sandi</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirmPassword">Konfirmasi Kata Sandi</label></td>
+                <td><input type="password" id="confirmPassword" name="confirmPassword" placeholder="Konfirmasi kata sandi" required></td>
+            </tr>
+            <tr></tr>
+                <td><label for="photo">Unggah Foto</label></td>
+                <td><input type="file" id="photo" name="photo" accept="image/*" required></td>
+            </tr>
+            <tr>
+                <td><label for="phoneNumber">Nomor HP</label></td>
+                <td><input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Masukkan nomor HP" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Alamat</label></td>
+                <td><textarea id="address" name="address" rows="3" placeholder="Masukkan alamat" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"+>
+                    <button type="submit">Daftar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
